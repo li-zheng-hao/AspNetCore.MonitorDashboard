@@ -4,15 +4,29 @@
     <projectFile profileName="IIS Express">Webapi/Webapi.csproj</projectFile>
     <projectFile profileName="Webapi">Webapi/Webapi.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2665deec-3cda-4d6d-9081-e2110949fbec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Webapi/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Webapi/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Webapi/Controllers/OrderController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Webapi/MetricsService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCore.MonitorDashboard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCore.MonitorDashboard/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webapi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Webapi/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webapi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Webapi/Properties/launchSettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8738717cef9d49ed96fc4b2f98d5496416400/f9/fc86398a/Gauge.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2716aaab824ee8133581d3b4e78456e5a188d8f998e4d1bee66211e7c3a5c2/DefaultHealthCheckService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3c5f10c0de7478a54d21d8fd63cac1b0c8f36ad7b59bc0292a56c842f4a1ed9f/HealthCheckServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GTZtBZqMwAkiQxnExatptlBjhh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,14 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Webapi">
     <configuration name="Webapi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Webapi/Webapi.csproj" />
@@ -69,6 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666414746181</updated>
       <workItem from="1666414748321" duration="57000" />
+      <workItem from="1666414850469" duration="7130000" />
     </task>
     <servers />
   </component>
@@ -90,5 +109,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Webapi/MetricsService.cs</url>
+          <line>13</line>
+          <properties documentPath="D:\AspNetCore.MonitorDashboard\src\Webapi\MetricsService.cs" initialLine="11" containingFunctionPresentation="method 'ExecuteAsync'">
+            <startOffsets>
+              <option value="428" />
+            </startOffsets>
+            <endOffsets>
+              <option value="571" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
